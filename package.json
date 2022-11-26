@@ -4,7 +4,10 @@
   "devDependencies": {
     "vite": "latest"
   },
+  "main": "index.js",
+  
   "scripts": {
+    "Dog": "Dog.js",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
