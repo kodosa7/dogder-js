@@ -1,5 +1,5 @@
 import data from './data.js'
-import Dog from '/Dog.js'
+import Dog from './Dog.js'
 
 const myData = {}
 Object.assign(myData, data)
