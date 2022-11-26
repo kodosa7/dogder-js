@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+        
+            <header>
+                <img class="user-avatar" src="./images/icon-profile.png" />
+                <img class="logo" src="./images/logo.png" />
+                <img class="chat" src="./images/icon-chat.png" />
+            </header>
+
+            <div class="container">
+                <div class="entry" id="entry">
+                    <div class="avatar" id="avatar">
+                        <div id="badge">
+                        </div>
+                        <div id="labels">
+                            <h1>
+                                <span id="name"></span>
+                                <span id="age"></span>
+                            </h1>
+                            <h2>
+                                <span id="bio"></span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="cross-btn">
+                    <button id="cross-btn"><img src="./images/icon-cross.png" /></button>
+                </div>
+                <div class="heart-btn">
+                    <button id="heart-btn"><img src="./images/icon-heart.png" /></btton>
+                </div>
+            </footer>
+        
+        </div> <!-- /wrapper -->
+
+        <script src="/index.js" type="module"></script>
+    </body>
+</html>
