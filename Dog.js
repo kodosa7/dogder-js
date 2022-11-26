@@ -26,6 +26,7 @@ class Dog {
     renderBadge() {
         document.getElementById('badge').innerHTML =
         `
+        <h1>HELLO THERE!</h1>
         <img src="${this.badge}">
         `
     }
