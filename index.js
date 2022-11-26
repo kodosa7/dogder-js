@@ -43,13 +43,13 @@ const showNextDog = () => {
 
 // render LIKE badge
 const renderLike = () => {
-    currentDog.badge = 'badge-like.png'
+    currentDog.badge = 'images/badge-like.png'
     currentDog.renderBadge()
 }
 
 // render NOPE badge
 const renderNope = () => {
-    currentDog.badge = 'badge-nope.png'
+    currentDog.badge = 'images/badge-nope.png'
     currentDog.renderBadge()
 }
 
