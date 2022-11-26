@@ -20,13 +20,13 @@ class Dog {
             </div>
         </div>
         `
-        document.getElementById('avatar').style.backgroundImage = `url(${this.avatar}')`
+        document.getElementById('avatar').style.backgroundImage = `url('./${this.avatar}')`
     }
 
     renderBadge() {
         document.getElementById('badge').innerHTML =
         `
-        <img src="${this.badge}">
+        <img src="./${this.badge}">
         `
     }
 }
