@@ -1,10 +1,14 @@
-# co34844ff9d391b860ff2e686
+# Dogder
+Tinder-like web app with dogs.
+Made as an exercise of Level Javascript module of scrimba.com Frontend Dev Path course.
+It has not a real functionality, it's made just to practice classes and objects in Javascript.
 
-Quick start:
+- Click on Like or Nope to like or dislike current dog
+- When the dog array is et its end, it shows a message
 
-```
-$ npm install
-$ npm start
+Screenshot:  
+![image](https://user-images.githubusercontent.com/57393100/204081229-c29dec98-5f77-46b3-8dd5-06480c44a21d.png)
+
 ````
 
 Head over to https://vitejs.dev/ to learn more about using vite
@@ -19,3 +23,5 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+
+Scrimba code: co34844ff9d391b860ff2e686
